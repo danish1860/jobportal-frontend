@@ -1,4 +1,4 @@
-export const server = "http://localhost:4444";
+export const server = "https://jobportal-backend-n8ny.onrender.com";
 
 const apiList = {
   login: `${server}/auth/login`,
