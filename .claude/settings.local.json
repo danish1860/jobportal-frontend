@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const m = require\\('multer'\\); console.log\\('multer version:', require\\('./node_modules/multer/package.json'\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/multer-storage-cloudinary/package.json'\\).version\\)\")",
+      "Bash(node -e \"const {CloudinaryStorage} = require\\('multer-storage-cloudinary'\\); console.log\\(typeof CloudinaryStorage\\)\")",
+      "Bash(node -e \"const pkg = require\\('./node_modules/multer-storage-cloudinary/package.json'\\); console.log\\('peerDeps:', JSON.stringify\\(pkg.peerDependencies\\)\\); console.log\\('deps:', JSON.stringify\\(pkg.dependencies\\)\\)\")",
+      "Bash(node -e ' *)"
+    ]
+  }
+}

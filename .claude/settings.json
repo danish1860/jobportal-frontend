@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "PowerShell(cd \"d:\\\\job portal\\\\clean-job-portal\\\\backend\" ; Start-Process powershell -ArgumentList '-NoExit', '-Command', 'cd \\\\\"d:\\\\job portal\\\\clean-job-portal\\\\backend\\\\\"; npm start')"
+    ]
+  }
+}
